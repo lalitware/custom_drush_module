@@ -1,0 +1,5 @@
+name: 'Custom Drush Module'
+type: module
+description: 'This module is to create a custom drush command to delete the desired nodes.'
+core_version_requirement: ^8||^9
+package: 'My Custom Drush Commands'

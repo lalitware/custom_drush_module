@@ -1,0 +1,17 @@
+{
+    "name": "drupal/custom_drush_module",
+    "description": "A module to create a custom drush command",
+    "type": "drupal-module",
+    "autoload": {
+      "psr-4": {
+        "Drupal\\custom_drush_module\\": "src/"
+      }
+    },
+    "extra": {
+      "drush": {
+        "services": {
+          "drush.services.yml": "^9"
+        }
+      }
+    }
+  }
